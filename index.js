@@ -23,17 +23,17 @@ client.on('ready', async () => {
   console.log(`${client.user.tag} - rich presence started!`);
 
   const r = new Discord.RichPresence()
-    .setApplicationId('')
-    .setType('STREAMING')
-    .setURL('https://www.youtube.com/watch?v=dQw4w9WgXcQ') //Must be a youtube video link 
+    .setApplicationId(' streaming ')
+    .setType('multi tasking')
+    .setURL('https://youtu.be/BME88lS6aVY?si=0dnDCaqPhXfStTMw') //Must be a youtube video link 
     .setState('Recording')
-    .setName('')
-    .setDetails(`Valorant [${formatTime()}]`)
+    .setName('hi')
+    .setDetails(` kissing mephone4s [${formatTime()}]`)
     .setStartTimestamp(Date.now())
- .setAssetsLargeImage('') //You can put links in tenor or discord and etc.
-    .setAssetsLargeText('Boring') //Text when you hover the Large image
-    .setAssetsSmallImage('') //You can put links in tenor or discord and etc.
-    .setAssetsSmallText('Twitch') //Text when you hover the Small image
+ .setAssetsLargeImage('https://media.discordapp.net/attachments/1189939866088259748/1241336058340315136/97cedce22d22ac592bcca74ca787b6b6.jpg?ex=6649d3cb&is=6648824b&hm=16210262ab87c9c4f7911c8dbf295b0109e96e8425a2414df1d46b39b0da4adf&') //You can put links in tenor or discord and etc.
+    .setAssetsLargeText('ᛝ  live laugh kid cudi ') //Text when you hover the Large image
+    .setAssetsSmallImage('https://media.discordapp.net/attachments/1189939866088259748/1241336257095794718/WHATISYOURMALFUNCTIONNUMBNUTS.gif?ex=6649d3fa&is=6648827a&hm=10720aa9deeec242c58632c25081013dc3dae512a207c01c4bb2020ed813dbae&') //You can put links in tenor or discord and etc.
+    .setAssetsSmallText('ᛝ     rentry') //Text when you hover the Small image
     .addButton('Watch', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ')
     .addButton('Donate', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ');
 
